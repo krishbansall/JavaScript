@@ -25,4 +25,3 @@ const name1 = "Krish  Bansal"
 console.log(name1.replace('Bansal','-'));
 console.log(name1.includes('Krish'));
 
-
