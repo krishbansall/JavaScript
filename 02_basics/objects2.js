@@ -32,4 +32,13 @@ console.log(Object.keys(tinderUser)); // Gives all the keys of the object and gi
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser)); // Gives every entry in an array format 
 
-console.log(tinderUser.hasOwnProperty('age'));
+console.log(tinderUser.hasOwnProperty('age'));//Checks whether it has that property or not.
+
+const course = {
+    coursename : "JavaScript",
+    courseInstructor : "Hitesh Choudhary" 
+}
+console.log(course.courseInstructor);//Thats very big to write multiple times.
+const {courseInstructor : instructor} = course
+console.log(instructor);//Gives the same output as the previous one.
+
